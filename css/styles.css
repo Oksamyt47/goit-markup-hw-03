@@ -32,9 +32,10 @@ img {
     margin: 0 auto;
 }
 
-/* HEDER */
+                                /* HEDER */
 
-.header {
+.header {}
+.header-container {
     display: flex;
     align-items: center;
 }
@@ -47,19 +48,31 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
 }
 
 .header-color-logo {
     color: #2e2f42;
 }
 
-.header-nav {}
+.header-nav {
+    align-items: center;
+    display: flex;
+    margin-right: 332px;
+    
+}
 
-.header-nav-list {}
+.header-nav-list {
+    align-items: center;
+    display: flex;
+    gap: 40px;
+}
 
 .header-nav-item {}
 
 .header-nav-link {
+    display: block;
+    padding: 24px 0;
     font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -71,7 +84,11 @@ img {
     color: #404bbf;
 }
 
-.header-contacts-list {}
+.header-contacts-list {
+    align-items: center;
+    display: flex;
+    gap: 40px;
+}
 
 .header-contacts-item {}
 
@@ -84,6 +101,9 @@ img {
 .header-contacts:focus {
     color: #404bbf;
 }
+
+                           /* SECTION HERO */
+
 .hero {
     background-color: #2e2f42;
 }
@@ -111,7 +131,7 @@ img {
     background-color: #404bbf;
 }
 
- /* section Our strengths */
+                        /* SECTION OUR STRENGHTS */
 
 .strengths {}
 
@@ -134,7 +154,7 @@ img {
         letter-spacing: 0.02em;
         color: #434455;
 }
-/* Our team */
+                           /* SECTION OUR TEAM */
 
 .team {
     background-color: #F4F4FD
@@ -174,7 +194,7 @@ img {
         color: #434455;
 }
 
-/* section our portfolio */
+                        /* SECTION OUR PORTFOLIO */
 
 .portfolio {}
 
@@ -208,7 +228,7 @@ img {
         color: #434455;
 }
 
-/* footer */
+                                /* FOOTER */
 
 .footer {
     background-color: #2e2f42;
