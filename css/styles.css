@@ -5,6 +5,9 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455;
 }
+.section {
+    padding: 120px 0;
+}
 
 h1,
 h2,
@@ -25,6 +28,18 @@ ul {
     list-style: none;
     margin: 0;
     padding-left: 0;
+}
+.visually-hidden {
+    position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
 }
 
 address {
@@ -126,6 +141,7 @@ img {
     display: flex;
     align-items: center;
     width: 496px;
+    margin: 0 auto;
     margin-bottom: 48px;
 
     font-weight: 700;
@@ -138,6 +154,7 @@ img {
 
 .hero-btn {
     display: block;
+    margin: 0 auto;
 
     background-color: #4d5ae5;
     font-family: "Roboto", sans-serif;
@@ -159,7 +176,9 @@ img {
 /* #region section Our strenghts */
 .strengths {}
 
-.strengths-list {}
+.strengths-list {
+    display: flex;
+}
 
 .strengths-item {}
 
