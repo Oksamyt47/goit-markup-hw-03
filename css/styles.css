@@ -59,7 +59,9 @@ img {
 /* #endregion */
 
 /* #region Header */
-.header {}
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
 
 .header-container {
     display: flex;
@@ -178,11 +180,18 @@ img {
 
 .strengths-list {
     display: flex;
+    
+    
+}
+.strengths-list-flex {
+    display: flex;
+    gap: 24px;
 }
 
 .strengths-item {}
 
 .strengths-title {
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
@@ -203,6 +212,9 @@ img {
 /* #region section Our team */
 .team {
     background-color: #f4f4fd;
+}
+.team-container {
+
 }
 
 .team-title {
