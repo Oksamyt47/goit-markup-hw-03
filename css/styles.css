@@ -144,7 +144,7 @@ img {
 .hero-title {
     display: flex;
     align-items: center;
-    width: 496px;
+    max-width: 496px;
     margin: 0 auto;
     margin-bottom: 48px;
 
@@ -159,8 +159,8 @@ img {
 .hero-btn {
     display: block;
     margin: 0 auto;
-    min-width: 105px;
-    min-height: 24px;
+    min-width: 169px;
+    
     padding: 16px 32px;
     border: none;
     border-radius: 4px;
@@ -245,16 +245,18 @@ img {
 
 .team-item {
     background-color: #ffffff;
+    border-radius: 0px 0px 4px 4px;
     
     
 }
 
 .team-text-container {
-    padding: 32px;
+    padding: 32px 0;
     
 }
 
 .team-subtitle {
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
@@ -264,7 +266,6 @@ img {
 }
 
 .team-text {
-    margin-top: 8px;
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
@@ -293,18 +294,18 @@ img {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+    row-gap: 48px;
 }
 .portfolio-text-container {
-    padding-top: 32px;
-    padding-left: 16px;
-    border-bottom-left-right: 1px solid #e7e9fc;
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
     
 }
 
 .potrfolio-item {}
 
 .portfolio-subtitle {
-    
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
@@ -313,7 +314,6 @@ img {
 }
 
 .portfolio-text {
-    margin-top: 8px;
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
@@ -326,10 +326,12 @@ img {
 /* #region Footer */
 .footer {
     background-color: #2e2f42;
+    padding: 100px 0 100px;
 }
 
 .footer-logo {
-    
+    display: inline-block;
+    margin-bottom: 16px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -344,7 +346,6 @@ img {
 }
 
 .footer-text {
-    margin-top: 16px;
     width: 264px;
     font-weight: 400;
     font-size: 16px;
