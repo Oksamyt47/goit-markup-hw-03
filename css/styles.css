@@ -5,9 +5,7 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455;
 }
-.section {
-    padding: 120px 0;
-}
+
 
 h1,
 h2,
@@ -54,6 +52,10 @@ img {
     width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
+}
+
+.section {
+    padding: 120px 0;
 }
 
 /* #endregion */
@@ -157,6 +159,11 @@ img {
 .hero-btn {
     display: block;
     margin: 0 auto;
+    min-width: 105px;
+    min-height: 24px;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 4px;
 
     background-color: #4d5ae5;
     font-family: "Roboto", sans-serif;
@@ -176,19 +183,23 @@ img {
 /* #endregion */
 
 /* #region section Our strenghts */
-.strengths {}
+.strengths {
+    
+    /* width: 1128px; */
+}
 
 .strengths-list {
-    display: flex;
-    
-    
-}
-.strengths-list-flex {
+    /* padding-left: 156px;
+    padding-right: 156px; */
     display: flex;
     gap: 24px;
+    
 }
 
-.strengths-item {}
+
+.strengths-item {
+    width: calc((100% - 72px) / 4);
+}
 
 .strengths-title {
     margin-bottom: 8px;
@@ -227,13 +238,18 @@ img {
     text-transform: capitalize;
 }
 
-.team-list {}
+.team-list {
+    display: flex;
+    gap: 24px;
+}
 
 .team-item {
     background-color: #ffffff;
+    
 }
 
 .team-member {
+    display: flex;
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
